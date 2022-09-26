@@ -1,0 +1,175 @@
+html {
+    background-color: black;
+    font-family: Arial;
+}
+
+body {
+    width: 1310px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+header {
+    background-color: black;
+
+}
+
+header h1 {
+    color: #007D7B;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    margin-top: -55px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #007D7B;
+  }
+
+nav li {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+}
+
+.TK {
+    width: 850px;
+    float: left;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+    background-color: #007D7B;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: black;
+}
+
+.section1 {
+    float: right;
+    width: 420px;
+    text-align: right;
+    color: #000000;
+    margin-top: -40px;
+}
+
+.section2 {
+    padding-left: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.short {
+    width: 420px;
+    height: 281px;
+    margin: 5px;
+    position: relative;
+}
+
+.tall {
+    width: 420px;
+    height: 630px;
+    margin: 5px;
+    position: relative;
+}
+
+figure, img {
+    float: left;
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.wt{
+    color: white;
+}
+
+.section4 {
+    clear: both;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.instruction {
+    color: #FFFFFF;
+}
+
+div {
+    text-align: center;
+}
+
+input, label {
+    color: #FFFFFF;
+    padding: 5px;
+    display: block;
+    width: 850px;
+}
+
+form {
+    text-align: left;
+    margin-left: 230px;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #007d7b;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+}
